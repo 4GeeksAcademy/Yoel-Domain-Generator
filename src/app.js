@@ -15,7 +15,7 @@ function allDomains() {
     adj.forEach(word2 => {
       noun.forEach(word3 => {
         domain.forEach(word4 => {
-          final += "<li>" + word + word2 + word3 + word4 + "</li>";
+          final += `<li>${word}${word2}${word3}${word4}</li>`;
         });
       });
     });
